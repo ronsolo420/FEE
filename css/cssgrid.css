@@ -1,0 +1,99 @@
+:root{
+    --mian-radius:5px;
+    --mian-padding:5px:
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas:
+     "nav nav nav nav"
+     "sidebar main main main"
+     "sidebar content1 content2 content3"
+     "sidebar footer footer footer";
+     grid-gap: 0.2rem;
+     font-family:"inter",sans-serif;
+     font-weight:800;
+     text-transform: uppercase;
+     font-size: 12px;
+     color: #AA0000;
+     text-align: center;
+}
+
+nav {
+    
+    grid-area: nav;
+    border-radius: var(--mian-padding);
+    border-radius: var(--mian-radius);
+    background-color: #B3995D;
+}
+main{
+
+    grid-area: main;
+    border-radius: var(--mian-padding);
+    border-radius: var(--mian-radius);
+}
+#sidebar{
+    
+    grid-area: sidebar;
+    border-radius: var(--mian-padding);
+    border-radius: var(--mian-radius);
+}
+#content1{
+    
+    grid-area: content1;
+    border-radius: var(--mian-padding);
+    border-radius: var(--mian-radius);
+}
+#content2{
+    
+    grid-area: content2;
+    border-radius: var(--mian-padding);
+    border-radius: var(--mian-radius);
+}
+#content3{
+    
+    grid-area: content3;
+    border-radius: var(--mian-padding);
+    border-radius: var(--mian-radius);
+}
+footer{
+    
+    grid-area: footer;
+    border-radius: var(--mian-padding);
+    border-radius: var(--mian-radius);
+}
+@media only screen and (max-width:550px) {
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows:0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-areas: 
+        "nav"
+        "sidebar"
+        "main"
+        "content1"
+        "content2"
+        "content3"
+        "footer";
+    }
+}
+li {
+    display: inline;
+    margin: 0px 45px;}
+a:hover, a.on {
+        color: #AA0000;
+        background-color: black;
+      }
+.main{
+        padding: 0px;
+        margin: 0px;
+        background: white;
+    }     
+.imag-container{
+    height: 1200px;
+    width: 1200px;
+    position: relative;
+    float: right;
+}

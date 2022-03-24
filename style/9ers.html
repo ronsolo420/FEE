@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9ers</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cssgrid.css">
+</head>
+    
+<div class="container">
+        <nav>  
+			<ul id="navigation">
+				<li><a href="#" >NEWS</a></li>
+				<li><a href="#">VIDEO</a></li>
+				<li><a href="#">PODCASTS</a></li>
+				<li><a href="#">PHOTOS</a></li>
+				<li><a href="#">TEAM</a></li>
+                <li><a href="#">CUMMUNITY</a></li>
+                <li><a href="#">FREE AGENCY</a></li>
+                <li><a href="#">...</a></li>
+			</ul>
+        </nav>           
+        <main>
+            <script>
+                var i = 0; //Start point
+                var images = [];
+                var time = 3000;
+
+            // Image list
+            images [0] = 'images/jimmy.webp'; 
+            images [1] = '../images/redjimmy.webp';
+            images [2] = '../images/Lance1.webp';
+
+            //Change Image
+            function ChangeImg(){
+                document.slide.src = images[i];
+                
+                if(i < images.length - 1){
+                    i++;
+                } else {
+                    i = 0;
+                }
+
+                setTimeout("changeImg()", time);
+            }
+
+            window.onload = changeImage;
+
+            </script>
+            <img name="slide" width="400" height="200">
+           
+</main>
+
+    
+
+    <div id="sidebar"><img src="../images/Lance1.webp" alt="jimmy" width="360px">
+    La Canfora: Texans not interested in 49ers’ Jimmy Garoppolo or Browns’ Baker Mayfield
+    </div>
+    
+    <div id="content1">Featured Content
+        
+        
+    </div>
+    <div id="content2">Podcasts</div>
+    <div id="content3">Featured Photos</div>
+    <footer>Follow Us</footer>
+    
+
+  </div>
+<body>  
+    
+        
+        
+</body>
+</html>

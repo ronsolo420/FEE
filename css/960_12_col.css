@@ -349,3 +349,15 @@ body {
 .clearfix {
   zoom: 1;
 }
+li {
+  display: inline;
+  margin: 0px 20px;}
+p {
+  color: #AA0000;
+  margin: 20px 0px 150px 0px;
+  
+}  
+a:hover, a.on {
+  color: #AA0000;
+  background-color: #ffffff;
+}
