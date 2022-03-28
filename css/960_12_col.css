@@ -361,3 +361,15 @@ a:hover, a.on {
   color: #AA0000;
   background-color: #ffffff;
 }
+.container_12 .imagebox {
+  height: auto;
+  margin: auto;
+  max-width: none;
+  width: auto;
+}
+.container_12 .imagebox {
+  max-height: 400px;
+}
+.container_12 .imagebox, .d3-o-header__branded-header > a, .d3-o-header__branded-header picture {
+  display: block;
+}
