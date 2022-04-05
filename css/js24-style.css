@@ -1,11 +1,13 @@
 img {
-  width: 240px;
+  width: 100px;
 }
 
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  background-image: url(../images/castle.webp);
+  height: 40px;
 }
 
 body {
@@ -50,8 +52,8 @@ body {
 }
 
 .interface img {
-  width: 120px;
-  height: 120px;
+  width: 250px;
+  height: 500px;
 }
 
 .img-avatar {
@@ -62,11 +64,11 @@ body {
 .interface div {
   width: 220px;
   padding: 0 10px 0 20px;
-  background-color: #211510;
+  
 }
 
 .interface a:hover div {
-  background-color: #3c1d3d;
+  background-color: DarkRed;
 }
 
 .interface h3 {
@@ -75,7 +77,6 @@ body {
   color: #f8b700;
   padding: 12px 0 4px;
 }
-
 .interface p {
   font-family: arial;
   font-size: 12px;
@@ -155,7 +156,7 @@ body {
 }
 
 .enemy a:hover div {
-  background-color: #3c1d3d;
+  background-color: red;
 }
 
 .enemy h3 {
@@ -171,6 +172,3 @@ body {
   color: #d5c8af;
   line-height: 20px;
 }
-
-js24-style.css
-Displaying js24-style.css.
