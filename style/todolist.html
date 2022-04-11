@@ -10,12 +10,37 @@
 <body>
 
     <div class="container">
-        <div id="newtasks">
+        <div id="newtask">
             <input type="text" placeholder="Enter Task">
             <button id="push">Add</button>
         </div>
         <div id="tasks"></div>
         </div>
+
+        <script>
+
+            document.querySelector('#push').onclick = function() {
+
+            if(document.querySelector('#newtask input').
+            value.length == 0){
+                alert("Please Enter a Task");
+            }
+            else{
+                document.querySelector('#tasks').innerHTML
+                += '<div class="task"><span id="taskname">${document.querySelector("#newtask input"). value}</span><button class="delete">X</button></div>';
+
+                var tasks = document.
+                querySelectorAll('#taskname');
+
+                for (var i = 0; i <current_task.length; i++) {
+                    current_task[i].onclick = function(){
+                        this.parentNode.remove();
+                    }
+
+                }
+            }
+        }
+        </script>   
     
 </body>
 </html>
