@@ -25,12 +25,12 @@
             value.length == 0){
                 alert("Please Enter a Task");
             }
-            else{
+            else {
                 document.querySelector('#tasks').innerHTML
-                += '<div class="task"><span id="taskname">${document.querySelector("#newtask input"). value}</span><button class="delete">X</button></div>';
+                += `<div class="task"><span id="taskname">${document.querySelector("#newtask input"). value}</span><button class="delete">X</button></div>`;
 
                 var tasks = document.
-                querySelectorAll('#taskname');
+                querySelectorAll('.taskname');
 
                 for (var i = 0; i <current_task.length; i++) {
                     current_task[i].onclick = function(){
