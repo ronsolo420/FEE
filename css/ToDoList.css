@@ -1,99 +1,47 @@
-*{
-    padding: 0.5em;
-    margin: 0;
-    box-sizing: border-box;
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddddda
 }
 
-body{
-    background-color: #1d2630;
-    height: 35%;
-    width: 550px;
-    margin: auto;
-    top: 50px;
-    left: 0;
-    right: 0;
-    padding: 30px 0;
-    border-radius: 8PX;
+.container {
+    width: 360px;
 }
 
-#newtask{
-    position: relative;
-    padding: 30px 15px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-}
-
-#newtask input{
-    border-radius: 5px;
-    width: 70%;
-    height: 45px;
-    font-size: 15px;
-    border: 2px solid lightgray;
-    padding: 12px;
-    font-weight: 500; 
-    position: relative;
-}
-
-#newtask input:focus{
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
     outline: none;
-    border-color: teal;
+    font-size: 25px;
+    vertical-align: middle;
 }
 
-#newtask button{
-    position: relative;
-    float: right;
-    width: 60px;
-    height: 45px;
-    border-radius: 3px;
-    font-weight: 500;
-    font-size: 16px;
-    background: teal;
-    color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-#task{
-    width: 100%;
-    position: relative;
-    margin-top: 40px;
-    background: white;
-    padding: 30px 20px;
-    border-radius: 5px;
-}
-
-.task{
-    background: white;
+#addToDo {
     height: 50px;
-    padding: 5px 10px;
-    border-radius: 0px;
-    margin-top: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    border-bottom: 2px solid lightgray;
-}
-
-.task span{
-    font-size: 15px;
-    font-weight: 400px;
-    cursor: pointer;
-}
-
-.task button{
-    border: none;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 20px;
     background: teal;
-    height: 100%;
-    width: 400%;
-    color: white;
-    border-radius: 5px;
+
+}
+#addToDo:hover {
+    background-color: #1fcecb
+  }
+
+.paragraph-styling {
+    margin: 0;
     cursor: pointer;
+    font-size: 20px;
 }
 
-.completed{
-    text-decoration: line-through;
-    opacity: 0.7;
+.to-dos {
+    margin-top: 25px;
 }
+
+h1 {
+    color: #f98f45
+  }
