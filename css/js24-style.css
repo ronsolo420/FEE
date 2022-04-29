@@ -1,14 +1,13 @@
 img {
   width: 100px;
 }
-
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   background-image: url(../images/castle.webp);
   height: 40px;
-}
+  }
 
 body {
   background-color: #1b1b1b;
@@ -26,15 +25,23 @@ body {
 
 .header p {
   font-family: arial;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
+  min-height: 40px;
 }
 
-.header h2 {
+.header {
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  color: #f8b700;
+}
+
+.h2 {
   font-family: 'Acme', sans-serif;
   font-size: 30px;
   color: #f8b700;
+  min-height: 40px;
 }
 
 .interface {
@@ -117,6 +124,7 @@ body {
 
 .actions a:hover {
   opacity: 0.9;
+  color: red;
 }
 
 .arena {
