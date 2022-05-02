@@ -56,11 +56,13 @@ body {
 .interface a {
   display: flex;
   flex-wrap: nowrap;
+  
 }
 
 .interface img {
   width: 250px;
   height: 500px;
+  
 }
 
 .img-avatar {
