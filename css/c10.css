@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 html { 
-  background: url(../img/paint-backdrop.jpg) no-repeat center center fixed; 
+  background: url(../images/paint-backdrop.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -65,8 +65,8 @@ input {
     background-position: 10px center; 
     padding-left: 40px;}
 
-#width {background-image: url('../img/paint-width.png');}
-#height {background-image: url('../img/paint-height.png');}
+#width {background-image: url('../images/paint-width.png');}
+#height {background-image: url('../images/paint-height.png');}
 
 h2 {
 	color: #474849;
