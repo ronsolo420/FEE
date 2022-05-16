@@ -16,7 +16,7 @@ header {
 	text-align: center;}
 
 h1 {
-  background-image: url('../img/creative-folk.png');
+  background-image: url('../images/creative-folk.png');
   background-repeat: no-repeat;
   background-position: center center;
   margin: 10px auto 5px auto;
@@ -157,7 +157,7 @@ th.descending:after {
 
 .location {
 	padding-left: 74px;
-	background-image: url('../img/pointer.png');
+	background-image: url('../images/pointer.png');
 	background-repeat: no-repeat;
 	background-position: 60px 1px;
 	font-size: 90%;}
