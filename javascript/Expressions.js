@@ -1,0 +1,1 @@
+let myStr = (myBool ? 'Yes' : 'No');
