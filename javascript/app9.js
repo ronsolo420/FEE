@@ -20,6 +20,6 @@ var arr2 = mapForEach (arr1, function(item) {
 console.log(arr2);
 
 var arr3 = mapForEach (arr1, function(item) {
-    return item < 2;
+    return item > 2;
 });
     console.log(arr3);
